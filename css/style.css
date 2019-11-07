@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   #fh5co-home, #fh5co-home .text-wrap {
-    height: 500px;
+    height: 100vh;
   }
 }
 #fh5co-home .text-wrap {
@@ -307,7 +307,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   #fh5co-home .text-inner h1 {
-    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.4em;
+    font-size: 32px;
+    
   }
 }
 #fh5co-home .text-inner h2 {
@@ -335,7 +339,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-work,
   #fh5co-counters,
   #fh5co-pricing {
-    padding: 1em 0;
+    padding: 0 10px;
   }
 }
 
