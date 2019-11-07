@@ -332,11 +332,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1em 0;
 
 }
-@media screen and (max-width: 768px) {
-  #fh5co-home {
-    padding: 0px;
-  }
-}
+
 @media screen and (max-width: 768px) {
   #fh5co-services,
   #fh5co-explore,
@@ -344,8 +340,9 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-footer,
   #fh5co-work,
   #fh5co-counters,
-  #fh5co-pricing {
-    padding: 0 10px;
+  #fh5co-pricing
+  #fh5co-home {
+    padding: 0px;
   }
 }
 
